@@ -10,9 +10,6 @@ function sync_templates
     echo -e "\nWhere to sync file: "
     read DEST
 
-    echo -e "\nNew filename: "
-    read FNAME
-
-    rsync "$SOURCE""$FILE" "$DEST""$FNAME"
+    rsync "$SOURCE""$FILE" "$DEST"
 
 end
