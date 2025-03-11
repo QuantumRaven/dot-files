@@ -6,10 +6,6 @@ alias a-play = "asciinema play $1"
 alias a-rec = "asciinema rec $1"
 alias a-upload = "asciinema upload $1"
 
-# fzf - Fuzzy Finder
-alias fuzzy-nvim = "nvim $(fzf --preview=bat {} --reverse)"
-alias sfuzzy-nvim = "nvim $(fzf --preview=bat {} --reverse)"
-
 # git
 alias gh = "history | grep"
 
