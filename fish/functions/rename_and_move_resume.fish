@@ -1,4 +1,4 @@
-function sync_templates
+function rename_and_move_resume
 
     set -x SOURCE "/home/quantumcrow/Downloads/"
 
