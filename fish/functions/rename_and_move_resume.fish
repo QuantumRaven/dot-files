@@ -7,9 +7,6 @@ function rename_and_move_resume
     echo -e "\nChoose resume file: "
     read FILE
 
-    echo -e "\nWhere to sync file: "
-    read DEST
-
-    mv "$SOURCE""$FILE" "$DEST"
+    mv "$SOURCE""$FILE" /home/quantumcrow/career/chloe_carpenter_resume.pdf
 
 end
