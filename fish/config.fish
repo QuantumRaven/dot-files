@@ -6,7 +6,7 @@ end
 
 # Add paths to PATH variable
 fish_add_path ~/.local/bin
-fish_add_path ~/go/bin/bootdev
+set -U fish_user_paths ~/go/bin/bootdev $fish_user_paths
 
 # Initiate Starship config for fish shell
 
