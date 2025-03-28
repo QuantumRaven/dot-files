@@ -7,7 +7,7 @@ alias a-rec="asciinema rec $1"
 alias a-upload="asciinema upload $1"
 
 # git
-alias gh="history | grep"
+alias ghist="history | grep"
 alias glog-one="git log --oneline --decorate --graph --parents"
 alias glog="git log --decorate --graph --parents"
 
