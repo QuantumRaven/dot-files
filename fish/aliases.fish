@@ -8,6 +8,8 @@ alias a-upload="asciinema upload $1"
 
 # git
 alias gh="history | grep"
+alias glog-one="git log --oneline --decorate --graph --parents"
+alias glog="git log --decorate --graph --parents"
 
 # grep
 alias grep="grep -iE --color=auto"
