@@ -240,3 +240,18 @@ bar {
 }
 
 bindsym Print exec grim -g "$(slurp)" - | wl-copy -t image/png
+
+# Monitor configuration
+
+output eDP-1 {
+    # Laptop internal display config
+}
+
+output eDP-1 {
+    position 2560 499
+}
+
+output DP-1 {
+    position 0 0
+}
+
