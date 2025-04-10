@@ -23,6 +23,7 @@ set $menu wofi -S
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
+# output * bg /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
@@ -222,7 +223,6 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 # bar {
 #    position top
-
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
 #    status_command while date +'%d-%m-%Y %I:%M:%S %p'; do sleep 1; done
@@ -239,6 +239,3 @@ bar {
 }
 
 bindsym Print exec grim -g "$(slurp)" - | wl-copy -t image/png
-
-exec_always swaymsg output DP-1 transform 270
-exec_always swaymsg output eDP-1 transform 270
