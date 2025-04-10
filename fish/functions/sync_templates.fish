@@ -2,7 +2,7 @@ function sync_templates
 
     set -x SOURCE "/home/quantumcrow/workspace/github_projects/quantumraven/template-files/"
 
-    ll "$SOURCE"
+    fd "$SOURCE"
 
     echo -e "\nChoose file: "
     read FILE
