@@ -23,7 +23,6 @@ set $menu wofi -S
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
-output * bg /run/current-system/sw/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
 #
 # Example configuration:
 #
@@ -242,4 +241,4 @@ bar {
 bindsym Print exec grim -g "$(slurp)" - | wl-copy -t image/png
 
 exec_always swaymsg output DP-1 transform 270
-exec_always swaymsg output DP-2 transform 270
+exec_always swaymsg output eDP-1 transform 270
