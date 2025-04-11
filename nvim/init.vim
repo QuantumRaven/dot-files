@@ -20,32 +20,3 @@ filetype plugin on
 set cursorline              " highlight current cursorline
 set ttyfast                 " Speed up scrolling in Vim
 
-call plug#begin()
-
-Plug 'tpope/vim-fugitive'                   " Git integration in to nvim
-Plug 'Yggdroot/indentLine'                  " Line Indentations
-Plug 'farmergreg/vim-lastplace'             " Continue from where you left last time
-Plug 'raimondi/delimitmate'                 " Provides insert mode auto-completion for special-characters
-Plug 'tpope/vim-markdown'                   " Markdown runtime files
-Plug 'tpope/vim-surround'                   " Change paranthesis and quotes into other forms quickly
-Plug 'scrooloose/nerdtree'                  " File navigator
-Plug 'vim-scripts/indentpython.vim'         " Indentation script for python
-Plug 'alvan/vim-closetag'                   " Makes a close tag for html quickly
-Plug 'luochen1990/rainbow'                  " Provides different colors to different paranthesis
-Plug 'airblade/vim-gitgutter'               " Shows git diffs in the sign columns
-Plug 'lilydjwg/colorizer'                   " Provides color for the #rrggbb or #rgb color format in files
-Plug 'vim-airline/vim-airline'              " Powerline Theme / Status line
-Plug 'vim-airline/vim-airline-themes'       " Themes for vim-airline
-Plug 'rafi/awesome-vim-colorschemes'        " Change colorschemes on the fly for vim and nvim
-Plug 'ryanoasis/vim-devicons'               " Icons
-Plug 'SirVer/ultisnips'                     " Code completion using snippets from vim-snippets and custom snippets
-Plug 'honza/vim-snippets'                   " Provides snippets for ultisnips
-
-call plug#end()
-
-" Keybindings for NERDTree
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <A-h> :vsplit<CR>
-nnoremap <A-k> :split<CR>
