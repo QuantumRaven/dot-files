@@ -1,3 +1,13 @@
+" Plugin settings
+
+call plugin#begin('~/.local/share/nvim/site')
+
+Plug 'scrooloose/nerdtree'
+
+call plug#end()
+
+" Basic settings
+
 set nocompatible            " disable compatibility to old-time vi
 set showmatch               " show matching 
 set ignorecase              " case insensitive 
