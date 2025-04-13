@@ -1,6 +1,6 @@
 " Plugin settings
 
-call plugin#begin('~/.local/share/nvim/site')
+call plug#begin()
 
 Plug 'scrooloose/nerdtree'
 
