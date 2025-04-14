@@ -6,6 +6,9 @@ alias a-play="asciinema play $1"
 alias a-rec="asciinema rec $1"
 alias a-upload="asciinema upload $1"
 
+# fd-find
+alias fdh="fd -H $1"
+
 # git
 alias ghist="history | grep"
 alias glog-one="git log --oneline --decorate --graph --parents"
