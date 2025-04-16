@@ -11,8 +11,8 @@ alias fdh="fd -H $1"
 
 # git
 alias ghist="history | grep"
-alias glog-one="git log --oneline --decorate --graph --parents"
-alias glog="git log --decorate --graph --parents"
+alias glog-one="git log --oneline --decorate --graph --parents --stat"
+alias glog="git log --decorate --graph --parents --stat"
 
 # grep
 alias grep="grep -iE --color=auto"
