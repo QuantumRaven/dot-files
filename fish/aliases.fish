@@ -25,6 +25,9 @@ alias l="lsd -l"
 alias la="lsd -a"
 alias ll="lsd -lha"
 
+# openssl
+alias ossl-secret="openssl rand -hex 64"
+
 # rsync
 alias rsync="rsync -avhP"
 alias s-rsync="sudo rsync -avhP"
