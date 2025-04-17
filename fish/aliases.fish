@@ -9,6 +9,9 @@ alias a-upload="asciinema upload $1"
 # fd-find
 alias fdh="fd -H $1"
 
+# fish
+alias sfish="source ~/.config/fish/aliases.fish"
+
 # git
 alias ghist="history | grep"
 alias glog-one="git log --oneline --decorate --graph --parents --stat"
