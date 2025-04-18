@@ -7,6 +7,6 @@ function rename_and_move_resume
     echo -e "\nChoose resume file: "
     read FILE
 
-    mv "$SOURCE""$FILE" /home/quantumcrow/career/chloe_carpenter_resume.pdf
+    mv "$SOURCE""$FILE" /home/quantumcrow/Documents/career/pdf/chloe_carpenter_resume.pdf
 
 end
