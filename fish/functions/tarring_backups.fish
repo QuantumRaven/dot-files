@@ -1,7 +1,7 @@
 function tarring_backups
 
-    set -x BACKUP_DIR "/home/quantumcrow/backups/"
-    set -x SOURCE_DIR "/home/quantumcrow/"
+    set BACKUP_DIR "/home/quantumcrow/backups/"
+    set SOURCE_DIR "/home/quantumcrow/"
 
     l "$SOURCE_DIR"
 
