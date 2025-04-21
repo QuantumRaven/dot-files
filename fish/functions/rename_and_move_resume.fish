@@ -1,6 +1,6 @@
 function rename_and_move_resume
 
-    set -x SOURCE "/home/quantumcrow/Downloads/"
+    set SOURCE "/home/quantumcrow/Downloads/"
 
     ll "$SOURCE" | grep -iE "resume".pdf
 
