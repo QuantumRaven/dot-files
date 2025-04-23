@@ -54,6 +54,12 @@ alias a-up = asciinema upload
 # Usage: fdh file dir
 alias fdh = fd -H
 
+
+# fzf
+
+# Usage: nfzfd
+alias nfzfd = fd | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse
+
 # grep
 
 # Usage: grep "text_to_find" filename
