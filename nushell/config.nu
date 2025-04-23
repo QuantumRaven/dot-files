@@ -58,7 +58,7 @@ alias fdh = fd -H
 # fzf
 
 # Usage: nfzfd
-alias nfzfd = fd | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse
+def nfzfd [] { fd | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse }
 
 # grep
 
