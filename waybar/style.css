@@ -32,8 +32,8 @@ window#waybar.hidden {
   color: #cdd6f4;
 }
 
-#workspaces button:active {
-  color: #1e1e2e;
+#workspaces button.active {
+  color: #f2cdcd;
   background-color: #f2cdcd;
 }
 
