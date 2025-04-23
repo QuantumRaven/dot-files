@@ -1,7 +1,6 @@
 /* Waybar Trans Pride Theme */
 
 * {
-    box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
 
@@ -30,7 +29,8 @@
 
 /* Module styles */
 .module {
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* Clock */
