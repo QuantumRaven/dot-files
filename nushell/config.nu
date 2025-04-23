@@ -35,91 +35,91 @@ $env.config.show_banner = false
 
 # ansible - Configuration Management
 
-# Usage: ap-inv inventor.ini some_playbook.yaml
+# Shorten ansible-playbook command
 alias ap-inv = ansible-playbook -i
 
 # asciinema - Record terminal
 
-# Usage: a-play filename.cast
+# Play designated asciinema file
 alias a-play = asciinema play
 
-# Usage: a-rec filename.cast
+# Record terminal and save to designated file
 alias a-rec = asciinema rec
 
-# Usage: a-up filename.cast
+# Upload designated file to asciinema website
 alias a-up = asciinema upload
 
 # fd-find
 
-# Usage: fdh file dir
+# Find hidden files
 alias fdh = fd -H
 
 
 # fzf
 
-# Usage: nfzfd
+# Use fuzzy finder and fd to sort through files with a preview, then open in nvim on ENTER
 def nfzfd [] { fdh -t f | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse }
 
 # grep
 
-# Usage: grep "text_to_find" filename
+# grep with color. case-insensitive, and search multiple tags "log|access|etc."
 alias grep = grep -iE --color=auto
 
 # ls
 
-# Usage: l dir - Long format
+# List files/directories in long format
 alias l = ls -l
 
-# Usage: la dir - Display hidden dirs
+# List hidden files/directories
 alias la = ls -a
 
-# Usage: ll dir - Long format + hidden dirs
+# List directory contents (includes hidden files/dirs) in long format
 alias ll = ls -la
 
 # openssl
 
-# Usage: ossl-secret
+# Generate secrets
 alias ossl-secret = openssl rand -hex 64
 
 # rsync
 
-# Usage: rsync source dest
+# Synchronize files with -avhP
 alias rsync = rsync -avhP
 
-# Usage: s-rsync source dest
+# Synchronize files with -avhP using sudo
 alias s-rsync = sudo rsync -avhP
 
 # systemctl
 
-# Usage: sus
+# Suspend device
 alias sus = systemctl suspend
 
 # wf-recorder
 
-# Usage: wfra filename.ext
+# Record screen with audio
 alias wfra = wf-recorder -a -f
 
-# Usage: wfr filename.ext
+# Record screen without audio
 alias wfr = wf-recorder -f
 
 # zellij
 
-# Usage: zel-a session_name
+# Attach to zellij session
 alias zel-a = zellij attach
 
-# Usage: zel-da
+# Delete all zellij sessions
 alias zel-da = zellij delete-all-sessions
 
-# Usage: zel-d session_name
+# Delete a specific zellij session
 alias zel-d = zellij delete-session
 
-# Usage: zel-l
+# List zellij sessions
 alias zel-l = zellij list-sessions
 
-# Usage: zel-n session_name
+# Start a new zellij session with a specific name
 alias zel-n = zellij -s
 
-# Usage: zel-set
+# Setup zellij
 alias zel-set = zellij setup
 
 # Applications
