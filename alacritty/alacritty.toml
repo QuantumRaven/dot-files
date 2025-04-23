@@ -1,0 +1,8 @@
+[general]
+import = [ "~/.config/alacritty/themes/themes/dracula_plus.toml" ]
+
+[terminal.shell]
+program = "/usr/bin/nu"
+
+[font]
+size = 10.0
