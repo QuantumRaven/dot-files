@@ -58,7 +58,7 @@ alias fdh = fd -H
 # fzf
 
 # Usage: nfzfd
-def nfzfd [] { fd | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse }
+def nfzfd [] { fdh -t f | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse }
 
 # grep
 
@@ -75,11 +75,6 @@ alias la = ls -a
 
 # Usage: ll dir - Long format + hidden dirs
 alias ll = ls -la
-
-# nushell
-
-# Usage: source ~/.config/nushell/config.nu
-alias snu = . ~/.config/nushell/config.nu
 
 # openssl
 
