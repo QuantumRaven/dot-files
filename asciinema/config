@@ -1,0 +1,4 @@
+[record]
+
+; Command to record, default: $SHELL
+command = /usr/bin/nu -l
