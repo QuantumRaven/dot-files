@@ -26,7 +26,6 @@
 
 # Default editor
 $env.config.buffer_editor = "/usr/bin/nvim"
-$env.EDITOR = "nvim"
 
 # Disable banner
 $env.config.show_banner = false
