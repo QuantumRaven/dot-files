@@ -25,7 +25,7 @@
 # $env.$PATH = 
 
 # Default editor
-$env.config.buffer_editor = "nvim"
+$env.config.buffer_editor = "/usr/bin/nvim"
 $env.EDITOR = "nvim"
 
 # Disable banner
