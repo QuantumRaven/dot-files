@@ -25,8 +25,8 @@ function sync_templates
     echo -e "\nWhere to sync file: "
     read DEST
 
-    # Use rsync -avhP (aliased as just rsync) to synchronize the file from SOURCE/FILE to the designated DEST.
+    # Use rsync -avhP to synchronize the file from SOURCE/FILE to the designated DEST.
 
-    rsync "$SOURCE""$FILE" "$DEST"
+    rsync -avhP "$SOURCE""$FILE" "$DEST"
 
 end
