@@ -1,5 +1,5 @@
 function a-play
 
-  asciinema play $1
+  asciinema play $argv
 
 end
