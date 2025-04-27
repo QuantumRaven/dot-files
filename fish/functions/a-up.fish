@@ -1,4 +1,4 @@
-function a-rec
+function a-up
 
   asciinema upload $argv
 
