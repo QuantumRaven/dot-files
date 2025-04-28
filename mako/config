@@ -1,0 +1,10 @@
+background-color=#16161d
+text-color=#dcd7ba
+border-color=#7e9cd8
+border-radius=10
+border-size=3
+progress-color=over #98bb6c
+font=inter 14
+height=300
+width=400
+padding=16
