@@ -1,5 +1,5 @@
 function la
 
-  lsd -ah
+  lsd -ah $argv
 
 end

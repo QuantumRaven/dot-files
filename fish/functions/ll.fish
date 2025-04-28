@@ -1,5 +1,5 @@
 function ll
 
-  lsd -lha
+  lsd -lha $argv
 
 end
