@@ -256,4 +256,4 @@ output HDMI-A-1 {
 }
 
 # Mako notification service
-exec --no-startup-id mako
+exec mako
