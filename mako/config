@@ -1,10 +1,35 @@
-background-color=#16161d
-text-color=#dcd7ba
-border-color=#7e9cd8
-border-radius=10
-border-size=3
-progress-color=over #98bb6c
-font=inter 14
-height=300
-width=400
-padding=16
+# Mako configuration file for SwayWM
+
+# General settings
+[general]
+# The position of the notifications on the screen
+anchor = top-right
+# The maximum number of notifications to display at once
+max-visible = 5
+# The duration (in seconds) for which notifications are displayed
+duration = 5
+
+# Appearance settings
+[appearance]
+# Background color of the notification
+background-color = #2E3440
+# Text color of the notification
+foreground-color = #D8DEE9
+# Font used for notifications
+font = "sans 10"
+
+# Notification settings
+[notification]
+# Set to true to only show notifications from local applications
+local-only = true
+# The default urgency level for notifications
+urgency = normal
+
+# Custom notification styles
+[style]
+# Border color for notifications
+border-color = #4C566A
+# Border width for notifications
+border-width = 2
+# Corner radius for notifications
+corner-radius = 5
