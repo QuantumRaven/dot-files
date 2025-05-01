@@ -21,7 +21,7 @@ style = "bold yellow"
 [username]
 style_user = "bold purple"
 show_always = true
-format = "user: [$user]($style)"
+format = "[$user]($style)"
 disabled = false
 
 [hostname]
