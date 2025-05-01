@@ -239,7 +239,7 @@ bar {
   swaybar_command waybar
 }
 
-bindsym Print exec grim -g "$(slurp)" - | wl-copy -t image/png
+bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy -t image/png
 
 # Monitor configuration
 
