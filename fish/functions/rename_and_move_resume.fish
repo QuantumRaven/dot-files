@@ -10,6 +10,6 @@ function rename_and_move_resume
     echo -e "\nNew file name: "
     read RESUMENAME
 
-    mv "$SOURCE""$FILE" /home/quantumcrow/Documents/career/pdf/"$RESUMENAME"
+    rsync -avhP "$SOURCE""$FILE" "$HOME"/Documents/career/pdf/"$RESUMENAME"
 
 end
