@@ -1,5 +1,5 @@
 function vfuzzy
 
-  fd -t f | fzf --preview "bat {}" --bind "enter:execute(nvim {})"
+  fd -H -E .git -t f | fzf --preview "bat {}" --bind "enter:execute(nvim {})" --reverse
   
 end
