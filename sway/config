@@ -118,9 +118,9 @@ set $menu wofi -S
     bindsym $mod+3 workspace number 3 "security"
     bindsym $mod+4 workspace number 4 "browser"
     bindsym $mod+5 workspace number 5 "reading"
-    bindsym $mod+6 workspace number 6 "dev"
-    bindsym $mod+7 workspace number 7
-    bindsym $mod+8 workspace number 8
+    bindsym $mod+6 workspace number 6 "neovim"
+    bindsym $mod+7 workspace number 7 "zed_frontend"
+    bindsym $mod+8 workspace number 8 "zed_backend"
     bindsym $mod+9 workspace number 9
     bindsym $mod+0 workspace number 10
     bindsym $mod+Ctrl+1 workspace number 11
@@ -139,9 +139,9 @@ set $menu wofi -S
     bindsym $mod+Shift+3 move container to workspace number 3 "security"
     bindsym $mod+Shift+4 move container to workspace number 4 "browser"
     bindsym $mod+Shift+5 move container to workspace number 5 "reading"
-    bindsym $mod+Shift+6 move container to workspace number 6 "dev"
-    bindsym $mod+Shift+7 move container to workspace number 7
-    bindsym $mod+Shift+8 move container to workspace number 8
+    bindsym $mod+Shift+6 move container to workspace number 6 "neovim"
+    bindsym $mod+Shift+7 move container to workspace number 7 "zed_frontend"
+    bindsym $mod+Shift+8 move container to workspace number 8 "zed_backend"
     bindsym $mod+Shift+9 move container to workspace number 9
     bindsym $mod+Shift+0 move container to workspace number 10
     bindsym $mod+Ctrl+Shift+1 move container to workspace number 11
