@@ -248,7 +248,7 @@ output eDP-1 {
 }
 
 output HDMI-A-1 {
-    position 0 0
+    position 4480 0
 }
 
 # Mako notification service
