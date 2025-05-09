@@ -22,8 +22,8 @@
         "cpu",
         "memory",
         "temperature",
-        "backlight",
-        "sway/language",
+        // "backlight",
+       // "sway/language",
         "battery",
         "clock",
         "tray"
@@ -128,7 +128,7 @@
     },
     "battery": {
         "states": {
-            // "good": 95,
+            "good": 95,
             "warning": 30,
             "critical": 15
         },
