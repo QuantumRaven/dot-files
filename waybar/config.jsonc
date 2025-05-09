@@ -15,13 +15,13 @@
         "sway/window"
     ],
     "modules-right": [
-        "idle_inhibitor",
+        // "idle_inhibitor",
         "pulseaudio",
         "network",
         "power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
+        // "cpu",
+        // "memory",
+        // "temperature",
         // "backlight",
        // "sway/language",
         "battery",
