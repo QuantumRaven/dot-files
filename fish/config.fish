@@ -7,6 +7,7 @@ end
 # Add paths to PATH variable
 fish_add_path $HOME/.local/bin
 fish_add_path $HOME/go/bin
+fish_add_path $HOME/.local/bin/pastel_v0.10.0
 
 # Initiate Starship config for fish shell
 
