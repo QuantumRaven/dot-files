@@ -248,6 +248,10 @@ output eDP-1 {
 }
 
 output HDMI-A-1 {
+    position 0 0
+}
+
+output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
     position 4480 0
 }
 
