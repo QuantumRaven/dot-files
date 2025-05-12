@@ -244,11 +244,13 @@ bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy -t image/png
 # Monitor configuration
 
 output eDP-1 {
-    position 2560 499
+    position 6058 2810
+    resolution 1920x1080
 }
 
-output HDMI-A-1 {
-    position 0 0
+output 'BOE J560J15 Unknown' {
+    position 3498 2581
+    resolution 2560x1600
 }
 
 output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
