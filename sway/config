@@ -254,7 +254,8 @@ output 'BOE J560J15 Unknown' {
 }
 
 output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
-    position 4480 0
+    position 7978 2230
+    resolution 3840x2160
 }
 
 # Mako notification service
