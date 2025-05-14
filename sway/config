@@ -258,5 +258,10 @@ output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
     resolution 3840x2160
 }
 
+output 'HP Inc. HP P22h G4 3CM01801S7   ' {
+    position 4202 2810
+    resolution 1920x1080
+}
+
 # Mako notification service
 exec --no-startup-id mako
