@@ -259,7 +259,7 @@ output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
 }
 
 output 'HP Inc. HP P22h G4 3CM01801S7   ' {
-    position 4202 2810
+    position 4138 2810
     resolution 1920x1080
 }
 
