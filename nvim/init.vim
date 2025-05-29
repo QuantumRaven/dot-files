@@ -1,14 +1,3 @@
-" Plugin settings
-
-call plug#begin()
-
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
-Plug 'PhilRunninger/nerdtree-buffer-ops'
-
-call plug#end()
-
 " Basic settings
 
 set nocompatible            " disable compatibility to old-time vi
