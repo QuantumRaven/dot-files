@@ -1,9 +1,6 @@
 function tarring_backups
 
-    set BACKUP_DIR "/home/quantumcrow/backups/"
-    set SOURCE_DIR "/home/quantumcrow/"
-
-    l "$SOURCE_DIR"
+    set BACKUP_DIR "/home/$USER/mounts/backups/"
 
     echo -e "\nName of tar file: "
     read TAR_FILE
@@ -11,6 +8,6 @@ function tarring_backups
     echo -e "\nSource content: "
     read SOURCE_CONTENT
 
-    tar -cvzf $BACKUP_DIR$TAR_FILE.tar.gz $SOURCE_CONTENT
+    tar -cvJf $BACKUP_DIR$TAR_FILE.tar.xz $SOURCE_CONTENT
 
 end
