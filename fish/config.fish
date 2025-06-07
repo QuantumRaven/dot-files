@@ -13,3 +13,6 @@ starship init fish | source
 # Set up fzf key bindings for fish shell
 
 fzf --fish | source
+
+# Set neovim as default editor
+set -gx EDITOR nvim
