@@ -8,6 +8,6 @@ function tarring_backups
     echo -e "\nSource content: "
     read SOURCE_CONTENT
 
-    tar -cvJf $BACKUP_DIR$TAR_FILE.tar.xz $SOURCE_CONTENT
+    tar --exclude='.*' --exclude='workspace' -cvJf $BACKUP_DIR$TAR_FILE.tar.xz $SOURCE_CONTENT
 
 end
