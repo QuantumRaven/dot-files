@@ -243,25 +243,5 @@ bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy -t image/png
 
 # Monitor configuration
 
-output eDP-1 {
-    position 6058 2810
-    resolution 1920x1080
-}
-
-output 'BOE J560J15 Unknown' {
-    position 3498 2581
-    resolution 2560x1600
-}
-
-output 'LG Electronics LG ULTRAGEAR 405MXVW55935' {
-    position 7978 2230
-    resolution 3840x2160
-}
-
-output 'HP Inc. HP P22h G4 3CM01801S7   ' {
-    position 4138 2810
-    resolution 1920x1080
-}
-
 # Mako notification service
 exec --no-startup-id mako
