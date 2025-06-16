@@ -243,5 +243,11 @@ bindsym $mod+p exec grim -g "$(slurp)" - | wl-copy -t image/png
 
 # Monitor configuration
 
+output HDMI-A-1 {
+  resolution 1920x1080
+    position 0 0
+    scale 1
+}
+
 # Mako notification service
 exec --no-startup-id mako
