@@ -17,7 +17,6 @@
         // "idle_inhibitor",
         "pulseaudio",
         "network",
-        "power-profiles-daemon",
         // "cpu",
         // "memory",
         // "temperature",
@@ -116,17 +115,6 @@
         // "device": "acpi_video1",
         "format": "{percent}% {icon}",
         "format-icons": ["🌑", "🌘", "🌗", "🌖", "🌕"]
-    },
-    "power-profiles-daemon": {
-        "format": "{icon}",
-        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-        "tooltip": true,
-        "format-icons": {
-            "default": "",
-            "performance": "",
-            "balanced": "",
-            "power-saver": ""
-        }
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
