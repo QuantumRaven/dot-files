@@ -120,7 +120,7 @@ set $menu wofi -S
     bindsym $mod+5 workspace number 5 "tech_www"
     bindsym $mod+6 workspace number 6 "frontend"
     bindsym $mod+7 workspace number 7 "backend"
-    bindsym $mod+8 workspace number 8
+    bindsym $mod+8 workspace number 8 "self-host"
     bindsym $mod+9 workspace number 9
     bindsym $mod+0 workspace number 10
     bindsym $mod+Ctrl+1 workspace number 11
@@ -141,7 +141,7 @@ set $menu wofi -S
     bindsym $mod+Shift+5 move container to workspace number 5 "tech_www"
     bindsym $mod+Shift+6 move container to workspace number 6 "frontend"
     bindsym $mod+Shift+7 move container to workspace number 7 "backend"
-    bindsym $mod+Shift+8 move container to workspace number 8
+    bindsym $mod+Shift+8 move container to workspace number 8 "self-host"
     bindsym $mod+Shift+9 move container to workspace number 9
     bindsym $mod+Shift+0 move container to workspace number 10
     bindsym $mod+Ctrl+Shift+1 move container to workspace number 11
