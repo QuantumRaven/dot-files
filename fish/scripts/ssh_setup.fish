@@ -6,7 +6,7 @@ touch $HOME/.ssh/config
 
 # Set permissions
 chmod 700 $HOME/.ssh
-chmod 600 $HOME/conifg
+chmod 600 $HOME/.ssh/config
 
 # Create root keys
 ssh-keygen -t ed25519 -f $HOME/.ssh/root
