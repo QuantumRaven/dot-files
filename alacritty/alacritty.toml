@@ -2,7 +2,7 @@
 import = [ "~/.config/alacritty/themes/themes/dracula_plus.toml" ]
 
 [terminal.shell]
-program = "/usr/bin/nu"
+program = "/usr/bin/fish"
 
 [font]
 size = 10.0
