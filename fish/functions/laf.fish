@@ -1,4 +1,4 @@
-function la
+function laf
 
   lsd -lah $argv
 
