@@ -2,7 +2,7 @@ function sync_templates
     
     # Set source where rsync will pull from and cd into dir.
 
-    set SOURCE "/home/$USER/workspace/github_projects/quantumraven/template-files/"
+    set SOURCE "/home/$USER/workspace/github/quantumraven/template-files/"
 
     cd "$SOURCE"
 
