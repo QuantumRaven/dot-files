@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 # Add paths to PATH variable
-fish_add_path $HOME/.local/bin
+fish_add_path $HOME/bin
 fish_add_path $HOME/go/bin
 
 # Initiate Starship config for fish shell
