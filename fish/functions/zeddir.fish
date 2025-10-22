@@ -1,0 +1,3 @@
+function zeddir
+  zeditor .
+end
