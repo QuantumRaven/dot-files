@@ -1,3 +1,0 @@
-function zeddir
-  zeditor .
-end
