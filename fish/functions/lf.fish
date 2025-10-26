@@ -1,5 +1,5 @@
 function lf
 
-  lsd -l $argv
+  lsd $argv
 
 end
