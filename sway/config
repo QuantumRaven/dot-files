@@ -244,10 +244,10 @@ bindsym $mod+shift+p exec grim -g "$(slurp)" "$HOME/media/images/screen-shots/$(
 exec --no-startup-id mako
 
 # Built-in screen
-output 'BOE 0x06CB Unknown' pos 3840 536 scale 1.2
+output 'BOE 0x06CB Unknown' pos 3840 536 scale 1
 
 # Portable monitor
-output 'BOE J560J15 Unknown' pos 5500 0 scale 1.7
+output 'BOE J560J15 Unknown' pos 5500 0 scale 1
 
 # Samsung TV
 output 'Samsung Electric Company SAMSUNG 0x01000E00' scale 2 pos 1920 346
