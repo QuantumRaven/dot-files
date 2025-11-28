@@ -247,7 +247,7 @@ exec --no-startup-id mako
 output 'BOE 0x06CB Unknown' pos 3840 536 scale 1
 
 # Portable monitor
-output 'BOE J560J15 Unknown' pos 5500 0 scale 1
+output 'BOE J560J15 Unknown' pos 5760 16 scale 1
 
 # Samsung TV
 output 'Samsung Electric Company SAMSUNG 0x01000E00' scale 2 pos 1920 346
