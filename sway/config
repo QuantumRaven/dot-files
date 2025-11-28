@@ -119,7 +119,7 @@ set $menu wofi -S
     bindsym $mod+4 workspace number 4 "browser"
     bindsym $mod+5 workspace number 5 "docs"
     bindsym $mod+6 workspace number 6 "videos"
-    bindsym $mod+7 workspace number 7 "zed"
+    bindsym $mod+7 workspace number 7 "nvim"
     bindsym $mod+8 workspace number 8 "self-host"
     bindsym $mod+9 workspace number 9 "literature"
     bindsym $mod+0 workspace number 10 "employment"
