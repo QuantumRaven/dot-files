@@ -3,8 +3,9 @@ if status is-interactive
 end
 
 # Add paths to PATH variable
-fish_add_path $HOME/bin
-fish_add_path $HOME/go/bin
+fish_add_path $HOME/workspace/local/bash
+fish_add_path $HOME/workspace/local/python/jblearning/
+fish_add_path $HOME/workspace/local/python/python-crash-course-3e
 
 # Initiate Starship config for fish shell
 
